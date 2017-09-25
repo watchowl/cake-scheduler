@@ -1,4 +1,3 @@
 # Cake Scheduler
-Cron Scheduler for CakePHP 3
-
+Cron Scheduler Plugin for CakePHP 3
 

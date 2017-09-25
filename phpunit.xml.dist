@@ -13,14 +13,14 @@
          stopOnSkipped="false"
          syntaxCheck="false">
 
-    <listeners>
-        <listener class="\Cake\TestSuite\Fixture\FixtureInjector"
-                  file="./vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureInjector.php">
-            <arguments>
-                <object class="\Cake\TestSuite\Fixture\FixtureManager" />
-            </arguments>
-        </listener>
-    </listeners>
+    <!--<listeners>-->
+        <!--<listener class="\Cake\TestSuite\Fixture\FixtureInjector"-->
+                  <!--file="./vendor/cakephp/cakephp/src/TestSuite/Fixture/FixtureInjector.php">-->
+            <!--<arguments>-->
+                <!--<object class="\Cake\TestSuite\Fixture\FixtureManager" />-->
+            <!--</arguments>-->
+        <!--</listener>-->
+    <!--</listeners>-->
 
     <testsuites>
         <testsuite name="CakeScheduler">
