@@ -1,0 +1,30 @@
+{
+    "name": "watchowl/cake-scheduler",
+    "description": "Cron Scheduler for CakePHP 3",
+    "type": "cakephp-plugin",
+    "require": {
+        "cakephp/cakephp": "~3.5",
+        "lavary/crunz": "~1.4"
+    },
+    "require-dev": {
+        "psr/log": "~1.0",
+        "phpunit/phpunit": "~4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Li",
+            "email": "welcome@watchowl.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WatchOwl\\CakeScheduler\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WatchOwl\\CakeScheduler\\Test\\": "tests"
+        }
+    }
+}

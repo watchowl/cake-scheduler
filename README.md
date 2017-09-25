@@ -1,2 +1,4 @@
-# cake-scheduler
-Cron Scheduler for CakePHP
+# Cake Scheduler
+Cron Scheduler for CakePHP 3
+
+
