@@ -3,7 +3,9 @@
 namespace WatchOwl\CakeScheduler\Shell;
 
 
-class CakeSchedulerShell
-{
+use Cake\Console\Shell;
 
+class CakeSchedulerShell extends Shell
+{
+    
 }
