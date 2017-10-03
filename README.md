@@ -50,9 +50,9 @@ return $schedule;
 ### Scheduling CakePHP Shell
 To schedule a CakePHP shell, call *CakeSchedule::shell*:
 
-```$schedule->shell('my view)```
+```$schedule->shell('MyCake awesome')```
 
-### Scheduling Any Commands
+### Scheduling Any Other Commands
 To schedule any other commands, call *CakeSchedule::run*:
 
 ```$cakeSchedule->run()```
@@ -61,9 +61,10 @@ To schedule any other commands, call *CakeSchedule::run*:
 
 
 
-
-
 Under the hood, CakeSchedule is using the great 
 [lavary/crunz](https://github.com/lavary/crunz#frequency-of-execution) library.
 It has a large number of options for us to configure the frequency of the execution.
 Check out its official documentation if you are looking for more available frequency.   
+
+### Hooks
+Hooks make it easy to integrate with other services such as [www.watchowl.io](www.watchowl.io). 
