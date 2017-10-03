@@ -63,15 +63,22 @@ There is plenty of ways to define the frequency of the execution:
 
 
 | Method        |   	Description |
-|---            |  ---|
-| cron()        |  The classic way of defining a schedule |
-| hourly()      |  Every hour|
-| daily()   	|  Daily at midnight|
-| weekly    	|  Sunday of each week	|
-| monthly()   	|  First day of each month	|
-| quarterly()   |  First day of each quarter	|
-| yearly()   	|  First day of each year	|
-
+|---            |       ---     |
+| ->cron()        |  the classic way of defining a schedule |
+| ->hourly()      |  beginning of each hour|
+| ->daily()   	|  daily at midnight|
+| ->weekly    	|  sunday of each week	|
+| ->monthly()   	|  first day of each month	|
+| ->quarterly()   |  first day of each quarter	|
+| ->yearly()   	|  first day of each year	|
+/ ->everyFiveMinutes() /    every five minutes      /
+/ ->everyMinute()     /   every minute        /
+/ ->everyTwelveHours() /   every twelve hours       /
+/ ->everyMonth    / every month          /
+/ ->everySixMonths()  /  every six months          /
+/ ->everyFifteenDays()    /  every fifteen days        /
+/ ->on('13:30 2016-03-01') / at a specific date and time /
+/ ->at('13:30') / at a specific time /
 
 
 Under the hood, CakeSchedule is using the great 
