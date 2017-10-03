@@ -67,4 +67,4 @@ It has a large number of options for us to configure the frequency of the execut
 Check out its official documentation if you are looking for more available frequency.   
 
 ### Hooks
-Hooks make it easy to integrate with other services such as [www.watchowl.io](www.watchowl.io). 
+Hooks make it easy to integrate with other services such as [www.watchowl.io](http://www.watchowl.io). 
