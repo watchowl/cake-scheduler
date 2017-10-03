@@ -43,6 +43,7 @@ For example:
 $schedule = new \WatchOwl\CakeScheduler\Schedule\CakeSchedule();
 $schedule
     ->run('/usr/bin/php backup.php')
+    ->daily()
     ->description('Test');
 return $schedule;
 ```
@@ -86,5 +87,45 @@ Under the hood, CakeSchedule is using the great
 It has a large number of options for us to configure the frequency of the execution.
 Check out its official documentation if you are looking for more available frequency.   
 
-### Hooks
+## Hooks
 Hooks make it easy to integrate with other services such as [www.watchowl.io](http://www.watchowl.io). 
+
+### Before A Job Runs
+To do something before a job is executed, we can use the *before()* hook:
+
+For example:
+
+```php
+$schedule = new \WatchOwl\CakeScheduler\Schedule\CakeSchedule();
+
+$schedule
+    ->run('/usr/bin/php backup.php')
+    ->before(function() { 
+        // Do something before the job runs
+     })
+    ->daily()
+    ->description('Test');
+    
+return $schedule;
+```
+
+### After A Job Is Finished
+To do something before a job is executed, we can use the *before()* hook:
+
+For example:
+
+```php
+$schedule = new \WatchOwl\CakeScheduler\Schedule\CakeSchedule();
+
+$schedule
+    ->run('/usr/bin/php backup.php')
+    ->after(function() { 
+        // Do something after the job is finished
+     })
+    ->daily()
+    ->description('Test');
+    
+return $schedule;
+```
+
+
