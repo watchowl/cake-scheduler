@@ -55,9 +55,22 @@ To schedule a CakePHP shell, call *CakeSchedule::shell*:
 ### Scheduling Any Other Commands
 To schedule any other commands, call *CakeSchedule::run*:
 
-```$cakeSchedule->run()```
+```$cakeSchedule->run('/usr/bin/php backup.php')```
 
-### Frequency of Execution
+### Frequency Options
+
+There is plenty of ways to define the frequency of the execution:
+
+
+| Method        |   	Description |
+|---            |  ---|
+| cron()        |  The classic way of defining a schedule |
+| hourly()      |  Every hour|
+| daily()   	|  Daily at midnight|
+| weekly    	|  Sunday of each week	|
+| monthly()   	|  First day of each month	|
+| quarterly()   |  First day of each quarter	|
+| yearly()   	|  First day of each year	|
 
 
 
