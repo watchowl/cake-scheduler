@@ -1,6 +1,19 @@
 # CakeScheduler
 Cron Scheduler Plugin for CakePHP 3
 
+## Table of Contents  
+- [Introduction](#installation)
+- [Why Use It](#why-use-it)
+- [Installation](#installation)
+- [Starting The Scheduler](#starting-the-scheduler)
+- [Defining Schedules](#defining-schedules)
+    - [Scheduling CakePHP Shell](#scheduling-cakephp-shell)
+    - [Scheduling Any Other Commands](#scheduling-any-other-commands)
+    - [Frequency Options](#frequency-options)
+- [Hooks](#hooks)
+    - [Before A Job Runs](#before-a-job-runs)
+    - [After A Job Is Finished](#after-a-job-is-finished)
+		
 ## Introduction 
 CakeScheduler allows you to write cron jobs right from PHP files. 
 It works for CakePHP shell as well as any other valid PHP code. 
