@@ -35,7 +35,7 @@ them to production just like any other PHP code.
 
 + You will need to add the following line to your application's `config/bootstrap.php` file:
 
-    ```Plugin::load('Watchowl/CakeScheduler');```
+    ```Plugin::load('WatchOwl/CakeScheduler');```
 
     
 ## Starting The Scheduler
