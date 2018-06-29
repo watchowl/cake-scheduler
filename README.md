@@ -123,7 +123,7 @@ return $schedule;
 ```
 
 ### After A Job Is Finished
-To do something before a job is executed, we can use the *before()* hook:
+To do something after a job is executed, we can use the *after()* hook:
 
 For example:
 
