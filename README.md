@@ -52,7 +52,7 @@ where composer.json file is located.
 
 For example:
 ```php
-// schdule/BackTasks.php
+// schedule/BackTasks.php
 $schedule = new \WatchOwl\CakeScheduler\Schedule\CakeSchedule();
 $schedule
     ->run('/usr/bin/php backup.php')
